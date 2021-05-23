@@ -1,0 +1,33 @@
+{
+  "productName": "Presidentes o Dictadores",
+  "systemName": "Presidentes o Dictadores Systems",
+  "external": false,
+  "apiConfigs": {
+    "authentication": {
+      "loginUser": {
+        "apiEndpoint": "auth/login/"
+      },
+      "revokeUser": {
+        "apiEndpoint": "revoke-token/"
+      },
+      "changePassword": {
+        "apiEndpoint": "passwordchange/"
+      },
+      "tokenExpirationTime": {
+        "apiEndpoint": "token/expirationtime/"
+      }
+    },
+    "usuarios": {
+      "apiEndpoint": "usuarios/"
+    },
+    "presidentes": {
+      "apiEndpoint": "presidentes/"
+    },
+    "votacion": {
+      "apiEndpoint": "votacion/"
+    },
+    "file": {
+      "apiEndpoint": "file/"
+    }
+  }
+}
